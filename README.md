@@ -1,5 +1,13 @@
 # NotebookLM + LGPD: Guia Prático de Estudos
 
+![Status](https://img.shields.io/badge/Status-Concluído-brightgreen)
+
+![NotebookLM](https://img.shields.io/badge/Google-NotebookLM-blue)
+
+![LGPD](https://img.shields.io/badge/Tema-LGPD-success)
+
+![DIO](https://img.shields.io/badge/DIO-Desafio-orange)
+
 > Projeto desenvolvido como parte do desafio prático da DIO utilizando o Google NotebookLM para aprendizagem ativa sobre a Lei Geral de Proteção de Dados (LGPD).
 
 ## Sobre o projeto
