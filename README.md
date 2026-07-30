@@ -284,23 +284,23 @@ A seguir estão algumas capturas de tela do NotebookLM utilizado durante o desen
 
 ## Título e Descrição
 
-![Título e descrição](TituloDescricao.jpg)
+![Título e descrição](imagens/TituloDescricao.jpg)
 
 ## Visão Geral
 
-![NotebookLM](NotebookLM_LGPD.jpg)
+![NotebookLM](imagens/NotebookLM_LGPD.jpg)
 
 ## Lista de Fontes
 
-![Lista de fontes](ListaFontes.jpg)
+![Lista de fontes](imagens/ListaFontes.jpg)
 
 ## Guia de Estudos
 
-![Guia de Estudos](GuiaEstudos.jpg)
+![Guia de Estudos](imagens/GuiaEstudos.jpg)
 
 ## Mapa Mental
 
-![Mapa Mental](MapaMental.png)
+![Mapa Mental](imagens/MapaMental.png)
 
 ---
 
