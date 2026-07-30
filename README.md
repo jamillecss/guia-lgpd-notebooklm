@@ -1,206 +1,391 @@
-# NotebookLM + LGPD: Guia Prático de Estudos
+# LGPD: Guia Prático de Estudos com NotebookLM
 
-![Status](https://img.shields.io/badge/Status-Concluído-brightgreen)
+# Índice
 
-![NotebookLM](https://img.shields.io/badge/Google-NotebookLM-blue)
-
-![LGPD](https://img.shields.io/badge/Tema-LGPD-success)
-
-![DIO](https://img.shields.io/badge/DIO-Desafio-orange)
-
-> Projeto desenvolvido como parte do desafio prático da DIO utilizando o Google NotebookLM para aprendizagem ativa sobre a Lei Geral de Proteção de Dados (LGPD).
-
-## Sobre o projeto
-
-Este projeto tem como objetivo demonstrar o uso do **Google NotebookLM** como ferramenta de apoio aos estudos, utilizando Inteligência Artificial para organizar conhecimento, sintetizar documentos oficiais e estruturar materiais de revisão.
-
-O tema escolhido foi a **Lei Geral de Proteção de Dados (LGPD)** por sua relevância para profissionais que trabalham com análise de dados, inteligência de negócios, monitoramento, governança e transformação digital.
-
-Durante o desenvolvimento foram utilizadas fontes oficiais, engenharia de prompts, estudos de caso e materiais produzidos pelo NotebookLM para consolidar o aprendizado.
+- [Sobre o Projeto](#sobre-o-projeto)
+- [Objetivos de Estudo](#objetivos-de-estudo)
+- [Competências Desenvolvidas](#competências-desenvolvidas)
+- [Curadoria de Fontes](#curadoria-de-fontes)
+- [Metodologia](#metodologia)
+- [Engenharia de Prompts](#engenharia-de-prompts)
+- [Desafios](#desafios)
+- [Demonstração](#demonstração)
+- [Miniguia de Estudos: LGPD em Resumo](#miniguia-de-estudos-lgpd-em-resumo)
+- [Glossário](#glossário)
+- [Perguntas de Revisão](#perguntas-de-revisão)
+- [Prompts Reutilizáveis](#prompts-reutilizáveis)
+- [Resultados Obtidos](#resultados-obtidos)
+- [Reflexão Final](#reflexão-final)
+- [Tecnologias Utilizadas](#tecnologias-utilizadas)
+- [Autora](#autora)
 
 ---
 
-# Objetivos de estudo
+# Sobre o Projeto
 
-* Compreender a estrutura da LGPD;
-* Identificar os princípios da proteção de dados;
-* Diferenciar Controlador, Operador e Encarregado (DPO);
-* Conhecer as bases legais para tratamento de dados;
-* Entender o tratamento de dados pessoais e dados sensíveis;
-* Conhecer os direitos dos titulares;
-* Compreender o papel da Autoridade Nacional de Proteção de Dados (ANPD);
-* Aplicar a LGPD em cenários reais relacionados à análise de dados e ao terceiro setor.
+Este repositório apresenta um **Caderno Temático** desenvolvido no **Google NotebookLM** sobre a **Lei Geral de Proteção de Dados Pessoais (LGPD)** como parte do desafio prático do Bootcamp Universia | Fundamentos de IA Generativa, uma iniciativa do Santander Open Academy e DIO.
+
+O objetivo foi utilizar Inteligência Artificial como ferramenta de **aprendizagem ativa**, organizando documentos oficiais, elaborando perguntas estratégicas e consolidando o conhecimento em um material reutilizável para estudos futuros.
+
+Mais do que resumir a legislação, este projeto buscou compreender a aplicação prática da LGPD para profissionais que trabalham com **Análise de Dados, Business Intelligence, Governança de Dados e Monitoramento**, aproximando os conceitos jurídicos da realidade das organizações.
+
+Toda a construção foi baseada em documentos oficiais e nas orientações da Autoridade Nacional de Proteção de Dados (ANPD), buscando desenvolver um material confiável, organizado e útil para consultas futuras.
+
+---
+
+# Objetivos de Estudo
+
+Durante a construção deste NotebookLM foram definidos os seguintes objetivos de aprendizagem:
+
+- Compreender a estrutura da LGPD;
+- Identificar seus princípios fundamentais;
+- Compreender o conceito de tratamento de dados pessoais;
+- Diferenciar dados pessoais e dados pessoais sensíveis;
+- Conhecer os direitos dos titulares;
+- Compreender as bases legais do tratamento;
+- Diferenciar Controlador, Operador e Encarregado (DPO);
+- Entender o papel da ANPD;
+- Compreender como a LGPD impacta profissionais de dados;
+- Estudar boas práticas de Governança de Dados;
+- Relacionar a LGPD ao uso de Inteligência Artificial;
+- Aplicar os conceitos em estudos de caso e situações reais.
+
+---
+
+# Competências Desenvolvidas
+
+Durante este projeto foram desenvolvidas competências importantes para profissionais da área de dados:
+
+- Curadoria de fontes oficiais;
+- Aprendizagem ativa com Inteligência Artificial;
+- Engenharia de Prompts;
+- Organização do conhecimento;
+- Documentação técnica em Markdown;
+- Síntese de documentos técnicos;
+- Interpretação de legislação;
+- Governança de Dados;
+- Segurança da Informação;
+- Pensamento crítico para validação das respostas geradas por IA;
+- Versionamento e documentação utilizando GitHub.
 
 ---
 
 # Curadoria de Fontes
 
-Foram utilizadas fontes públicas e oficiais disponibilizadas pelo Governo Federal.
+Foram selecionados documentos oficiais e materiais públicos para garantir maior confiabilidade às respostas produzidas pelo NotebookLM.
 
-| Documento                                                           | Instituição                  |
-| ------------------------------------------------------------------- | ---------------------------- |
-| Lei nº 13.709/2018 – Lei Geral de Proteção de Dados                 | Presidência da República     |
-| Guia Orientativo para Agentes de Tratamento                         | ANPD                         |
-| Guia de Segurança da Informação                                     | ANPD                         |
-| Cartilha sobre a LGPD                                               | Senado Federal               |
-| Política de Proteção de Dados Pessoais                              | Controladoria-Geral da União |
-| Marco Civil da Internet                                             | Presidência da República     |
-| Materiais complementares sobre governança e segurança da informação | ANPD                         |
+| Documento | Objetivo |
+|-----------|----------|
+| Lei nº 13.709/2018 (LGPD) | Base legal principal do estudo |
+| Guias da ANPD | Orientações práticas para aplicação da LGPD |
+| Marco Civil da Internet | Complementação do contexto jurídico digital |
+| Documentos da CGU | Governança e proteção de dados no setor público |
+| Materiais do Senado Federal | Apoio à compreensão da legislação |
+| Planos Estratégicos da ANPD | Governança, fiscalização e segurança |
+| Guias sobre Agentes de Tratamento | Responsabilidades de Controladores, Operadores e Encarregados |
+
+Todos os documentos utilizados são públicos e possuem caráter institucional.
+
+---
+
+# Metodologia
+
+Este projeto foi desenvolvido utilizando uma abordagem de **aprendizagem ativa**, na qual a Inteligência Artificial foi utilizada como ferramenta de apoio, sem substituir a análise crítica dos documentos. O processo foi dividido em cinco etapas:
+
+### 1. Curadoria
+
+Seleção de documentos oficiais relacionados à LGPD.
+
+### 2. Organização
+
+Importação das fontes para o NotebookLM.
+
+### 3. Engenharia de Prompts
+
+Construção de perguntas estratégicas para explorar os documentos sob diferentes perspectivas.
+
+### 4. Consolidação
+
+Produção de resumos, comparações, estudos de caso, mapas mentais e materiais de revisão.
+
+### 5. Documentação
+
+Organização de todo o processo em um repositório GitHub para servir como material de estudo e portfólio profissional.
+
+## Benefícios do NotebookLM (Identificados durante o Projeto)
+
+Durante o desenvolvimento deste material foi possível perceber algumas vantagens do NotebookLM:
+
+- Centralização de múltiplas fontes em um único ambiente;
+- Respostas fundamentadas nos documentos enviados;
+- Criação rápida de resumos;
+- Geração de perguntas de revisão;
+- Construção de mapas mentais;
+- Auxílio na organização do conhecimento;
+- Facilidade para revisões futuras.
+
+Ao mesmo tempo, ficou evidente que a qualidade das respostas depende diretamente da qualidade das fontes utilizadas e da elaboração de prompts claros e específicos.
 
 ---
 
 # Engenharia de Prompts
 
-Durante os estudos foram realizados diversos testes de prompts para compreender melhor o funcionamento do NotebookLM e melhorar a qualidade das respostas.
+Um dos principais aprendizados deste projeto foi compreender que a utilização de Inteligência Artificial depende não apenas da ferramenta escolhida, mas também da capacidade de formular perguntas claras, contextualizadas e estratégicas.
 
-## Prompt 1
+No NotebookLM, os prompts foram utilizados como instrumentos de investigação, revisão e construção do conhecimento.
 
-> Explique a estrutura geral da LGPD como se eu fosse um Analista de Dados iniciando meus estudos.
+A elaboração das perguntas seguiu alguns princípios:
 
-### Resultado
+- Definir claramente o objetivo da análise;
+- Contextualizar o papel esperado da IA;
+- Solicitar respostas estruturadas;
+- Incentivar comparações e exemplos práticos;
+- Estimular pensamento crítico sobre o conteúdo apresentado.
 
-Produziu uma visão geral da legislação, destacando princípios, direitos dos titulares e responsabilidades dos agentes de tratamento.
+## Exemplos de Prompts Utilizados
 
----
+### Compreensão Inicial da Legislação
 
-## Prompt 2
+**Prompt:**
 
-> Quais artigos da LGPD são mais importantes para quem trabalha diariamente com bancos de dados?
+> Explique os principais conceitos da LGPD para uma pessoa que está iniciando seus estudos sobre proteção de dados. Utilize exemplos práticos do cotidiano das organizações.
 
-### Resultado
+**Objetivo:**
 
-Identificação dos artigos mais relevantes para profissionais de dados, incluindo definições, princípios, bases legais e requisitos de segurança.
+Construir uma visão geral da legislação antes de aprofundar conceitos específicos.
 
----
+### Comparação de Conceitos
 
-## Prompt 3
+**Prompt:**
 
-> Faça um quadro comparando Controlador, Operador e Encarregado.
+> Crie uma tabela comparativa entre dado pessoal, dado pessoal sensível e dado anonimizado, apresentando definição, exemplos e impactos relacionados à LGPD.
 
-### Resultado
+**Objetivo:**
 
-Geração de tabela comparativa facilitando a compreensão dos papéis previstos na LGPD.
+Facilitar a diferenciação entre conceitos fundamentais da legislação.
 
----
+### Aplicação Profissional
 
-## Prompt 4
+**Prompt:**
 
-> Quais são as principais bases legais da LGPD? Explique quando cada uma costuma ser utilizada.
+> Explique como a LGPD impacta a rotina de um Analista de Dados, considerando coleta, tratamento, armazenamento, análise e compartilhamento de informações.
 
-### Resultado
+**Objetivo:**
 
-Resumo das principais bases legais acompanhado de exemplos práticos.
+Relacionar a legislação com atividades práticas da área de dados.
 
----
+### Estudos de Caso
 
-## Prompt 5
+**Prompt:**
 
-> Quais erros mais comuns as empresas cometem ao aplicar a LGPD?
+> Crie situações hipotéticas envolvendo organizações que precisam aplicar a LGPD e explique quais princípios, direitos e responsabilidades estão envolvidos.
 
-### Resultado
+**Objetivo:**
 
-Listagem de erros recorrentes relacionados à coleta excessiva de dados, ausência de documentação, compartilhamento inadequado de informações e falhas na gestão de terceiros.
-
----
-
-## Prompt 6
-
-> Explique a diferença entre anonimização, pseudonimização e criptografia.
-
-### Resultado
-
-Comparação clara entre técnicas utilizadas para proteção de dados pessoais.
+Transformar conceitos teóricos em situações aplicáveis.
 
 ---
 
-## Prompt 7
+# Desafios
 
-> Monte um fluxograma textual mostrando o ciclo de vida dos dados pessoais segundo a LGPD.
+Durante o desenvolvimento do projeto, alguns desafios foram identificados e solucionados.
 
-### Resultado
+## 1. Seleção das fontes adequadas
 
-Descrição das etapas de coleta, processamento, armazenamento, compartilhamento e eliminação de dados.
+### Desafio:
 
----
+A quantidade de materiais disponíveis sobre LGPD é extensa, incluindo artigos, notícias, interpretações jurídicas e conteúdos produzidos por diferentes instituições.
 
-## Prompt 8
+### Solução:
 
-> Como a LGPD impacta profissionais de Business Intelligence, Power BI e análise de dados?
+Foi priorizada a utilização de documentos oficiais e institucionais, especialmente:
 
-### Resultado
+- Lei nº 13.709/2018;
+- Materiais da ANPD;
+- Documentos de órgãos públicos;
+- Conteúdos educativos relacionados à proteção de dados.
 
-Explicação sobre Privacy by Design, minimização de dados, segurança da informação e boas práticas para construção de dashboards.
+### Aprendizado:
 
----
+A qualidade da resposta gerada por uma Inteligência Artificial está diretamente relacionada à qualidade das informações utilizadas como base.
 
-## Prompt 9
+## 2. Evitar respostas genéricas da Inteligência Artificial
 
-> Crie um mapa mental resumindo toda a LGPD.
+### Desafio:
 
-### Resultado
+Perguntas muito amplas podem gerar respostas superficiais ou pouco relacionadas ao objetivo do estudo.
 
-Resumo visual dos principais conceitos da legislação.
+### Solução:
 
----
+Os prompts foram refinados adicionando:
 
-## Prompt 10
+- Contexto profissional;
+- Objetivo da análise;
+- Formato esperado da resposta;
+- Exemplos práticos.
 
-> Faça 20 perguntas de revisão sobre a LGPD.
+### Aprendizado:
 
-### Resultado
+A engenharia de prompts é uma competência essencial para transformar a IA em uma ferramenta de produtividade e aprendizagem.
 
-Material utilizado para revisão ativa dos conteúdos estudados.
+## 3. Transformação de informação em conhecimento
 
----
+### Desafio:
 
-## Prompt 11
+Apenas reunir documentos não garante aprendizado.
 
-> Explique os conceitos utilizando exemplos do terceiro setor.
+### Solução:
 
-### Resultado
+Foram utilizadas estratégias como:
 
-Aplicação prática da LGPD em organizações sociais, fundações e ONGs.
+- Perguntas de revisão;
+- Comparações;
+- Resumos estruturados;
+- Mapas mentais;
+- Estudos de caso.
 
----
+### Aprendizado:
 
-## Prompt 12
-
-> Analise um estudo de caso envolvendo uma ONG que coleta dados pessoais de beneficiários.
-
-### Resultado
-
-Discussão sobre minimização de dados, controle de acesso, criptografia e treinamento de colaboradores.
-
----
-
-# 🔍 Cicatrizes
-
-Durante os testes foi possível observar que:
-
-* Perguntas muito amplas geravam respostas excessivamente genéricas.
-* Prompts contextualizados produziram respostas mais completas e úteis.
-* Solicitar exemplos práticos tornou os conceitos mais fáceis de compreender.
-* Pedir comparações em formato de tabela facilitou a revisão do conteúdo.
-* Solicitar estudos de caso aproximou a legislação da prática profissional.
+O conhecimento é construído quando a informação é organizada, interpretada e relacionada com situações reais.
 
 ---
 
-# Miniguia de Estudos
+# Demonstração
+
+A construção do projeto foi realizada utilizando o Google NotebookLM como ambiente principal de organização e exploração das fontes.
+
+## Estrutura desenvolvida:
+
+### Caderno Temático
+
+Organização dos documentos utilizados como base para consulta e análise.
+
+### Resumos Inteligentes
+
+Utilização da IA para auxiliar na síntese dos principais conceitos da LGPD.
+
+### Perguntas de Revisão
+
+Criação de questões para testar a compreensão dos conteúdos estudados.
+
+### Mapas Mentais
+
+Representação visual das relações entre conceitos importantes.
+
+### Material de Consulta
+
+Consolidação dos aprendizados em formato reutilizável para estudos futuros.
+
+---
+
+## Imagens do Projeto
+
+A seguir estão algumas capturas de tela do NotebookLM utilizado durante o desenvolvimento deste projeto.
+
+## Título e Descrição
+
+![Título e descrição](TituloDescricao.jpg)
+
+## Visão Geral
+
+![NotebookLM](NotebookLM_LGPD.jpg)
+
+## Lista de Fontes
+
+![Lista de fontes](ListaFontes.jpg)
+
+## Guia de Estudos
+
+![Guia de Estudos](GuiaEstudos.jpg)
+
+## Mapa Mental
+
+![Mapa Mental](MapaMental.png)
+
+---
+
+# Miniguia de Estudos: LGPD em Resumo
 
 ## O que é a LGPD?
 
-Lei brasileira que regulamenta o tratamento de dados pessoais, garantindo privacidade, transparência e segurança.
+A Lei Geral de Proteção de Dados Pessoais (Lei nº 13.709/2018) estabelece regras para o tratamento de dados pessoais por pessoas físicas, empresas e organizações públicas ou privadas.
 
-## Princípios
+Seu principal objetivo é proteger os direitos fundamentais de liberdade, privacidade e desenvolvimento da personalidade das pessoas.
 
-* Finalidade
-* Adequação
-* Necessidade
-* Transparência
-* Segurança
-* Prevenção
-* Não discriminação
-* Responsabilização
+---
+
+## O que são dados pessoais?
+
+São informações relacionadas a uma pessoa natural identificada ou identificável.
+
+Exemplos:
+- Nome;
+- CPF;
+- Endereço;
+- Telefone;
+- E-mail;
+- Localização;
+- Informações de cadastro.
+
+---
+
+## O que são dados pessoais sensíveis?
+
+São dados que possuem maior potencial de causar impactos aos titulares caso sejam utilizados de forma inadequada.
+
+Exemplos:
+- Origem racial ou étnica;
+- Convicção religiosa;
+- Opinião política;
+- Informações relacionadas à saúde;
+- Dados genéticos ou biométricos.
+
+---
+
+## O que significa tratamento de dados?
+
+Tratamento corresponde a qualquer operação realizada com dados pessoais.
+
+Exemplos:
+- Coleta;
+- Armazenamento;
+- Organização;
+- Análise;
+- Compartilhamento;
+- Eliminação.
+
+---
+
+## Princípios da LGPD
+
+A legislação apresenta princípios que orientam o tratamento adequado dos dados:
+
+| Princípio | Significado |
+|-----------|-------------|
+| Finalidade | Dados devem ser utilizados para objetivos legítimos e informados ao titular |
+| Adequação | O tratamento deve ser compatível com a finalidade informada |
+| Necessidade | Utilizar apenas os dados realmente necessários |
+| Transparência | Garantir informações claras aos titulares |
+| Segurança | Proteger os dados contra acessos indevidos |
+| Prevenção | Adotar medidas para evitar danos |
+| Responsabilização | Demonstrar adoção de boas práticas |
+
+---
+
+## Bases Legais
+
+A LGPD estabelece hipóteses que autorizam o tratamento de dados pessoais. Algumas delas:
+
+- Consentimento do titular;
+- Cumprimento de obrigação legal;
+- Execução de políticas públicas;
+- Realização de estudos;
+- Exercício regular de direitos;
+- Proteção da vida;
+- Legítimo interesse;
+- Proteção do crédito.
+
+---
 
 ## Direitos dos Titulares
 
@@ -212,6 +397,8 @@ Lei brasileira que regulamenta o tratamento de dados pessoais, garantindo privac
 * Portabilidade
 * Revogação do consentimento
 
+---
+
 ## Agentes de Tratamento
 
 **Controlador:** toma as decisões sobre o tratamento.
@@ -220,18 +407,9 @@ Lei brasileira que regulamenta o tratamento de dados pessoais, garantindo privac
 
 **Encarregado (DPO):** atua como canal de comunicação entre organização, titulares e ANPD.
 
-## Bases Legais
+---
 
-* Consentimento
-* Obrigação legal
-* Execução de contrato
-* Políticas públicas
-* Legítimo interesse
-* Proteção da vida
-* Tutela da saúde
-* Exercício regular de direitos
-
-## Boas práticas
+## Boas Práticas
 
 * Utilizar criptografia;
 * Aplicar controle de acesso;
@@ -244,21 +422,116 @@ Lei brasileira que regulamenta o tratamento de dados pessoais, garantindo privac
 
 # Glossário
 
-| Conceito          | Definição                                                                                         |
-| ----------------- | ------------------------------------------------------------------------------------------------- |
-| ANPD              | Autoridade Nacional de Proteção de Dados                                                          |
-| Controlador       | Responsável pelas decisões sobre o tratamento                                                     |
-| Operador          | Executa o tratamento em nome do controlador                                                       |
-| Encarregado (DPO) | Canal de comunicação entre organização, titulares e ANPD                                          |
-| Dado pessoal      | Informação relacionada a pessoa natural identificada ou identificável                             |
-| Dado sensível     | Informação sobre saúde, religião, biometria, origem racial, entre outros                          |
-| Anonimização      | Processo que impede a identificação do titular                                                    |
-| Pseudonimização   | Substituição de identificadores por códigos, mantendo possibilidade de reidentificação controlada |
-| Criptografia      | Técnica utilizada para proteger a confidencialidade dos dados                                     |
+## ANPD
+**Autoridade Nacional de Proteção de Dados**
+Órgão responsável por zelar pela proteção de dados pessoais e pela implementação da LGPD no Brasil.
+Entre suas atribuições estão:
+- Regulamentar temas relacionados à proteção de dados;
+- Fiscalizar o cumprimento da legislação;
+- Promover educação e conscientização;
+- Aplicar sanções administrativas.
+
+## Dado Pessoal
+Informação relacionada a uma pessoa natural identificada ou identificável.
+Exemplos:
+- Nome;
+- CPF;
+- E-mail;
+- Telefone;
+- Endereço.
+
+## Dado Pessoal Sensível
+Categoria especial de dado pessoal que exige maior proteção devido ao potencial impacto sobre a privacidade e direitos fundamentais do titular.
+Exemplos:
+- Dados de saúde;
+- Dados biométricos;
+- Origem racial ou étnica;
+- Convicção religiosa;
+- Opinião política.
+
+## Titular
+Pessoa natural a quem pertencem os dados pessoais tratados.
+Exemplo: 
+Um cliente, funcionário, estudante ou cidadão que fornece informações para uma organização.
+
+## Controlador
+Pessoa física ou jurídica responsável pelas decisões referentes ao tratamento dos dados pessoais.
+Exemplo:
+Uma empresa que define quais dados serão coletados, por qual motivo e como serão utilizados.
+
+## Operador
+Pessoa física ou jurídica que realiza o tratamento de dados pessoais em nome do controlador.
+Exemplo:
+Uma empresa terceirizada responsável pelo armazenamento ou processamento das informações.
+
+## Encarregado (DPO)
+Profissional responsável por atuar como canal de comunicação entre:
+- Controlador;
+- Titulares dos dados;
+- Autoridade Nacional de Proteção de Dados (ANPD).
+
+## Consentimento
+Manifestação livre, informada e inequívoca pela qual o titular autoriza o tratamento de seus dados pessoais para determinada finalidade.
+
+## Governança de Dados
+Conjunto de práticas, processos e políticas utilizados para garantir que os dados sejam:
+- Confiáveis;
+- Seguros;
+- Acessíveis;
+- Utilizados de forma ética e estratégica.
+
+## Privacy by Design
+Abordagem que considera a proteção de dados desde a criação de produtos, serviços e processos.
+A privacidade deixa de ser uma etapa posterior e passa a fazer parte do planejamento inicial.
+
+## Segurança da Informação
+Conjunto de práticas destinadas a proteger informações contra:
+- Acesso não autorizado;
+- Perda;
+- Alteração indevida;
+- Vazamento.
 
 ---
 
-# Prompts reutilizáveis
+# Perguntas de Revisão
+
+As perguntas abaixo foram elaboradas para auxiliar na revisão dos principais conceitos estudados durante o projeto.
+
+---
+
+## Conceitos Fundamentais
+
+### 1. Qual é o principal objetivo da LGPD?
+
+**Resposta esperada:** Proteger os direitos fundamentais de liberdade, privacidade e o livre desenvolvimento da personalidade das pessoas naturais, estabelecendo regras para o tratamento de dados pessoais.
+
+### 2. Qual a diferença entre dado pessoal e dado pessoal sensível?
+
+**Resposta esperada:** Dados pessoais identificam ou podem identificar uma pessoa. Dados pessoais sensíveis possuem maior potencial de impacto e recebem proteção especial pela legislação.
+
+### 3. O que significa realizar tratamento de dados?
+
+**Resposta esperada:** Significa realizar qualquer operação com dados pessoais, como coleta, armazenamento, análise, compartilhamento ou eliminação.
+
+---
+
+## Aplicação Prática
+
+### 4. Um Analista de Dados precisa se preocupar com a LGPD? Por quê?
+
+**Resposta esperada:** Sim. Profissionais de dados lidam diretamente com informações pessoais e precisam garantir que a coleta, análise e utilização dos dados estejam alinhadas aos princípios e bases legais da legislação.
+
+### 5. Por que a qualidade das fontes é importante ao utilizar Inteligência Artificial?
+
+**Resposta esperada:** Porque modelos de IA utilizam as informações disponibilizadas como referência. Fontes inadequadas podem gerar respostas incompletas, incorretas ou pouco confiáveis.
+
+### 6. Como a LGPD se relaciona com Governança de Dados?
+
+**Resposta esperada:** A LGPD fortalece práticas de governança ao exigir organização, segurança, transparência e responsabilidade no tratamento das informações.
+
+---
+
+# Prompts Reutilizáveis
 
 * Explique este documento em linguagem simples.
 * Faça um resumo executivo.
@@ -273,24 +546,104 @@ Lei brasileira que regulamenta o tratamento de dados pessoais, garantindo privac
 
 ---
 
-# Aprendizados
+# Resultados Obtidos
 
-O NotebookLM mostrou-se uma ferramenta eficiente para organizar informações, sintetizar documentos técnicos e apoiar a aprendizagem ativa.
+A realização deste projeto permitiu desenvolver uma compreensão mais ampla sobre a LGPD e sua relação com o universo de dados.
 
-A combinação entre documentos oficiais, engenharia de prompts e estudos de caso possibilitou compreender a LGPD de forma estruturada, aproximando os conceitos jurídicos da realidade de profissionais que trabalham com dados.
-
----
-
-# Tecnologias utilizadas
-
-* Google NotebookLM
-* GitHub
-* Markdown
+Além do conhecimento técnico sobre proteção de informações, foram desenvolvidas competências relacionadas ao uso estratégico da Inteligência Artificial.
 
 ---
 
-# 👩‍💻 Autora
+## Principais Resultados:
 
-**Jamille Cristina da Silva Souza**
+- Organização de um caderno temático sobre LGPD utilizando NotebookLM;
 
-Projeto desenvolvido para o desafio prático da DIO com foco em aprendizagem ativa, documentação técnica e uso de Inteligência Artificial aplicada aos estudos.
+- Consolidação de conceitos jurídicos relacionados à proteção de dados;
+
+- Desenvolvimento de uma metodologia própria de estudo utilizando IA;
+
+- Prática de engenharia de prompts;
+
+- Aprimoramento da capacidade de curadoria e análise de fontes;
+
+- Criação de documentação técnica utilizando Markdown e GitHub;
+
+- Aproximação entre conhecimentos de legislação, tecnologia e análise de dados.
+
+---
+
+## Conexão com a Carreira em Dados
+
+Este projeto contribui diretamente para a formação de profissionais que trabalham com dados, pois demonstra que analisar informações envolve muito mais do que ferramentas técnicas. O profissional de dados também precisa compreender:
+
+- Responsabilidade no uso das informações;
+- Ética no tratamento de dados;
+- Segurança;
+- Governança;
+- Impactos das decisões baseadas em dados.
+
+A LGPD representa uma dimensão essencial para uma cultura de dados responsável.
+
+---
+
+# Reflexão Final
+
+Este projeto representou uma oportunidade de unir tecnologia, legislação e aprendizagem ativa.
+
+Durante o desenvolvimento, foi possível compreender que a Inteligência Artificial pode ser uma poderosa ferramenta de apoio ao aprendizado, desde que utilizada com senso crítico, responsabilidade e intenção.
+
+O NotebookLM demonstrou potencial para transformar grandes volumes de informação em materiais organizados e personalizados, mas também reforçou a importância da participação humana na seleção das fontes, formulação das perguntas e validação dos resultados.
+
+A experiência fortaleceu competências importantes para profissionais que atuam em ambientes orientados por dados:
+
+- Capacidade analítica;
+- Organização do conhecimento;
+- Comunicação clara;
+- Pensamento crítico;
+- Responsabilidade ética.
+
+Mais do que aprender sobre LGPD, este projeto possibilitou refletir sobre um princípio fundamental da era digital:
+
+> Dados representam pessoas. Por isso, todo uso de informação deve considerar não apenas eficiência, mas também responsabilidade.
+
+---
+
+# Tecnologias Utilizadas
+
+- **Google NotebookLM**  
+  Organização das fontes, exploração dos documentos e criação do material de estudo.
+
+- **GitHub**  
+  Versionamento, documentação e construção do portfólio.
+
+- **Markdown**  
+  Estruturação do README e documentação técnica.
+
+- **Documentos oficiais públicos**  
+  Base de conhecimento utilizada para análise.
+
+---
+
+# Autora
+
+## Jamille C S Souza
+
+Profissional com experiência em **Monitoramento, Avaliação, Análise de Dados e Gestão da Informação**, com atuação no desenvolvimento de indicadores, dashboards, organização de bases de dados e produção de relatórios analíticos.
+
+Formação interdisciplinar pela **Universidade Federal do ABC (UFABC)**, com graduação em:
+
+- Bacharelado em Ciências e Humanidades;
+- Bacharelado em Relações Internacionais;
+- Bacharelado em Políticas Públicas.
+
+Possui interesse em temas relacionados a:
+
+- Análise de Dados;
+- Business Intelligence;
+- Governança de Dados;
+- Proteção de Dados;
+- Inteligência Artificial aplicada ao aprendizado e à tomada de decisão.
+
+---
+
+> Este projeto foi desenvolvido como parte do desafio prático do **Santander Open Academy e DIO** com foco em aprendizagem ativa, documentação técnica e uso de Inteligência Artificial aplicada aos estudos.
