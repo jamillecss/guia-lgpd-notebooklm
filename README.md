@@ -23,7 +23,7 @@
 
 # Sobre o Projeto
 
-Este repositório apresenta um **Caderno Temático** desenvolvido no **Google NotebookLM** sobre a **Lei Geral de Proteção de Dados Pessoais (LGPD)** como parte do desafio prático do Bootcamp Universia | Fundamentos de IA Generativa, uma iniciativa do Santander Open Academy e DIO.
+Este repositório apresenta um **Caderno Temático** desenvolvido no **Google NotebookLM** sobre a **Lei Geral de Proteção de Dados Pessoais (LGPD)** como parte do desafio prático do Bootcamp Universia – Primeiros Passos em Power BI, incluindo o Bootcamp Universia | Fundamentos de IA Generativa, promovido pelo Santander Open Academy em parceria com a DIO.
 
 O objetivo foi utilizar Inteligência Artificial como ferramenta de **aprendizagem ativa**, organizando documentos oficiais, elaborando perguntas estratégicas e consolidando o conhecimento em um material reutilizável para estudos futuros.
 
@@ -630,11 +630,7 @@ Mais do que aprender sobre LGPD, este projeto possibilitou refletir sobre um pri
 
 Profissional com experiência em **Monitoramento, Avaliação, Análise de Dados e Gestão da Informação**, com atuação no desenvolvimento de indicadores, dashboards, organização de bases de dados e produção de relatórios analíticos.
 
-Formação interdisciplinar pela **Universidade Federal do ABC (UFABC)**, com graduação em:
-
-- Bacharelado em Ciências e Humanidades;
-- Bacharelado em Relações Internacionais;
-- Bacharelado em Políticas Públicas.
+Formação interdisciplinar no Bacharelado em Ciências e Humanidades, Bacharelado em Relações Internacionais e Bacharelado em Políticas Públicas pela **Universidade Federal do ABC (UFABC)**.
 
 Possui interesse em temas relacionados a:
 
@@ -642,8 +638,9 @@ Possui interesse em temas relacionados a:
 - Business Intelligence;
 - Governança de Dados;
 - Proteção de Dados;
-- Inteligência Artificial aplicada ao aprendizado e à tomada de decisão.
-
----
-
-> Este projeto foi desenvolvido como parte do desafio prático do **Santander Open Academy e DIO** com foco em aprendizagem ativa, documentação técnica e uso de Inteligência Artificial aplicada aos estudos.
+- Monitoramento & Avaliação;
+- Gestão do Conhecimento;
+- Inteligência Artificial aplicada ao aprendizado e à tomada de decisão;
+- Responsabilidade Social;
+- ESG;
+- Políticas Públicas.
