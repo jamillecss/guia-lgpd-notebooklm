@@ -628,19 +628,5 @@ Mais do que aprender sobre LGPD, este projeto possibilitou refletir sobre um pri
 
 ## Jamille C S Souza
 
-Profissional com experiência em **Monitoramento, Avaliação, Análise de Dados e Gestão da Informação**, com atuação no desenvolvimento de indicadores, dashboards, organização de bases de dados e produção de relatórios analíticos.
-
-Formação interdisciplinar no Bacharelado em Ciências e Humanidades, Bacharelado em Relações Internacionais e Bacharelado em Políticas Públicas pela **Universidade Federal do ABC (UFABC)**.
-
-Possui interesse em temas relacionados a:
-
-- Análise de Dados;
-- Business Intelligence;
-- Governança de Dados;
-- Proteção de Dados;
-- Monitoramento & Avaliação;
-- Gestão do Conhecimento;
-- Inteligência Artificial aplicada ao aprendizado e à tomada de decisão;
-- Responsabilidade Social;
-- ESG;
-- Políticas Públicas.
+Profissional com experiência em Monitoramento & Avaliação, Análise de Dados e Gestão do Conhecimento, com atuação no desenvolvimento de indicadores, dashboards, análise de bases de dados e produção de relatórios para apoio à tomada de decisão. Bacharela em Ciências e Humanidades, Relações Internacionais e Políticas Públicas pela Universidade Federal do ABC (UFABC). 
+Possui interesse em Análise e Governança de Dados, Business Intelligence, Proteção de Dados, Inteligência Artificial e Políticas Públicas.
